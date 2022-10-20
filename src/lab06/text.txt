@@ -1,0 +1,4 @@
+Offices_1 70
+MedicalOffice_2 120
+PostOffice_3 170
+MAll_4 200

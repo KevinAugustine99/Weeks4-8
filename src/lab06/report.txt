@@ -1,0 +1,35 @@
+Author: Kevin Augustine
+
+1.
+    The purpose of the pivot is to split the list into three parts, in order to compare their
+ lengths to k. We don't need to use the middle value of the list since the list is unsorted.
+ The algorithim wouldn't behave any differently if the first element was used.
+
+ 2.
+    Test cases: even lists, odd lists, large lists, small lists, sorted lists, unsorted lists,
+and even with strings.
+
+3.
+    select_median:
+run 1: 0.8049569129943848
+run 2: 0.8608953952789307
+run 3: 0.7744204998016357
+run 4: 0.7509961128234863
+run 5: 0.7405681610107422
+run 6: 0.7805876731872559
+run 7: 0.8008379936218262
+run 8: 0.7831501960754395
+run 9: 0.802332878112793
+run 10: 0.9175922870635986
+
+    store_location:
+run 1: 2.0930564403533936
+run 2: 2.020634412765503
+run 3: 2.5023345947265625
+run 4: 1.9889209270477295
+run 5: 2.026705265045166
+run 6: 1.9403460025787354
+run 7: 2.128549575805664
+run 8: 2.0935330390930176
+run 9: 2.144767999649048
+run 10: 2.0750572681427
